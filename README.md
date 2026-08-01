@@ -4,8 +4,8 @@ A complete **authentication system** built using **React (Vite)** on the fronten
 Supports **JWT-based authentication** with **username/password login**, cookie-based **refresh token rotation**, and **Google** and **GitHub OAuth2 login**.
 
 **Live demo:**
-- Frontend: `https://auth-app-ts.netlify.app`
-- Backend API: `https://auth-application-springboot.onrender.com`
+- Frontend: **https://auth-app-ts.netlify.app**
+- Backend: **https://auth-application-springboot.onrender.com**
 
 > ⚠️ The backend runs on Render's free tier, which spins down after 15 minutes of inactivity. The first request after idle time may take 30–60 seconds to respond.
 
