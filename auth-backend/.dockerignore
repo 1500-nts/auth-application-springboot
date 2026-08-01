@@ -1,0 +1,23 @@
+# Secrets - never bake these into the image
+.env
+.env.*
+!.env.example
+
+# Build artifacts (rebuilt inside the image anyway)
+target/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# VCS
+.git/
+.gitignore
+
+# OS files
+.DS_Store
+
+# Docs not needed at runtime
+HELP.md
+README.md

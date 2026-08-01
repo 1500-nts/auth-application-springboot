@@ -33,10 +33,10 @@ import java.util.List;
 public class SecurityConfig {
 
 
-    private JwtAuthenticationFilter jwtAuthenticationFilter;
+    private com.substring.auth.app.auth.config.JwtAuthenticationFilter jwtAuthenticationFilter;
     private AuthenticationSuccessHandler successHandler;
 
-    public SecurityConfig(JwtAuthenticationFilter jwtAuthenticationFilter, AuthenticationSuccessHandler successHandler) {
+    public SecurityConfig(com.substring.auth.app.auth.config.JwtAuthenticationFilter jwtAuthenticationFilter, AuthenticationSuccessHandler successHandler) {
         this.jwtAuthenticationFilter = jwtAuthenticationFilter;
         this.successHandler = successHandler;
     }
