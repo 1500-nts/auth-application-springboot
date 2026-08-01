@@ -7,7 +7,6 @@ import { Mail, Lock, CheckCircle2Icon } from "lucide-react";
 import { useState, type FormEvent } from "react";
 import type LoginData from "@/models/LoginData";
 import toast from "react-hot-toast";
-import { loginUser } from "@/services/AuthService";
 import { useNavigate } from "react-router";
 import { Alert, AlertTitle } from "@/components/ui/alert";
 import { Spinner } from "@/components/ui/spinner";

@@ -18,8 +18,6 @@ function Signup() {
     password: "",
   });
 
-  const [loading, setLoading] = useState<boolean>(false);
-  const [error, setError] = useState(null);
 
   const navigate = useNavigate();
 
