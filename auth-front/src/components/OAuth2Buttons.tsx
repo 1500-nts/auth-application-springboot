@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "./ui/button";
 import { Chrome, Github } from "lucide-react";
 import { NavLink } from "react-router";
