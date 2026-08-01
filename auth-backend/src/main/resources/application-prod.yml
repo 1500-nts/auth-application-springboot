@@ -77,8 +77,8 @@ security:
 
 app:
   cors:
-    front-end-url: ${FRONT_END_URL}
+    front-end-url: ${FRONT_END_URL=http://localhost:5173}
   auth:
     frontend:
-      success-redirect: ${FRONT_END_SUCCESS_REDIRECT}
-      failure-redirect: ${FRONT_END_FAILURE_REDIRECT}
+      success-redirect: ${FRONT_END_SUCCESS_REDIRECT=http://localhost:5173/oauth/success}
+      failure-redirect: ${FRONT_END_FAILURE_REDIRECT=http://localhost:5173/oauth/failure}
