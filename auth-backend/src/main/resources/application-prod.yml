@@ -77,8 +77,8 @@ security:
 
 app:
   cors:
-    front-end-url: ${FRONT_END_URL=https://auth-app-ts.netlify.app}
+    front-end-url: ${FRONT_END_URL:https://auth-app-ts.netlify.app}
   auth:
     frontend:
-      success-redirect: ${FRONT_END_SUCCESS_REDIRECT=https://auth-app-ts.netlify.app/oauth/success}
-      failure-redirect: ${FRONT_END_FAILURE_REDIRECT=https://auth-app-ts.netlify.app/oauth/failure}
+      success-redirect: ${FRONT_END_SUCCESS_REDIRECT:https://auth-app-ts.netlify.app/oauth/success}
+      failure-redirect: ${FRONT_END_FAILURE_REDIRECT:https://auth-app-ts.netlify.app/oauth/failure}
